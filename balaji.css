@@ -1,0 +1,199 @@
+body{
+
+margin:0;
+padding:0;
+box-sizing: border-box;
+width:100%;
+background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200105/pngtree-geometric-square-with-light-blue-background-image_326796.jpg");
+background-image: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.bold{
+
+    font-size: 30px;
+    text-decoration: none;
+    color:orange;
+    padding-left: 30px;
+    
+}
+
+#navbar{
+
+    position:sticky;
+    top:0;
+    z-index:10 ;
+}
+.navbar{
+
+background:darkslategray;
+
+}
+li{
+    font-size: larger;
+    padding: 10px;
+    color:beige;
+    
+}
+.nav-link{
+
+    font-size: 15px;
+    font-weight: bold;
+    border:2px solid transparent;
+    
+    border-radius: 50px;
+}
+.navbar-nav .nav-item .nav-link{
+    color:orange;
+    font-size: 19px;
+  }
+.navbar-nav .nav-item .nav-link:hover{   
+    background: linear-gradient(
+        to bottom,white,orange);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    border: 2px solid orange;
+    
+ transform: translatex(1px);
+ transition: 1s;  
+  }
+
+  /*------navbar---->
+
+  /*----home---*/
+section{
+
+  min-height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding-left: 20px;
+
+  
+}
+
+.btn.btn-warning{
+
+border-radius:50px;
+
+}
+.btn.btn-warning:hover{
+
+background-color: beige;
+}
+
+.quotes{
+
+    font-size:30px;
+    color:orange;
+    font-weight: bold;
+}
+.name-1{
+   
+    font-weight: bold;
+    font-size: 40px;
+    color:orange;
+
+
+}
+.mg-lg-2.my-3{
+
+    font-size: 20px;
+}
+
+.card img{
+
+height:200px
+
+}
+
+.card-group{
+
+    display:flex;
+    width:100%;
+}
+.card{
+
+    flex:1;
+}
+
+.inner{
+
+    overflow:hidden;
+    
+}
+.text-center h2{
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card-img-top:hover{
+     transform: scale(1.5);
+    transition: 0.1s;
+}
+
+.card-body{
+
+background:lightskyblue;
+
+}
+
+
+
+form{
+
+    padding:45px;
+    box-shadow: 2px 2px 5px darkgrey,
+                -1px -1px 5px darkgrey;
+
+    background: rgba(0,0,0,0.1);
+    border-radius: 30px;
+    margin: 5px;
+    
+
+}
+#contact button{
+
+    border-radius:50px;
+    cursor: pointer;
+
+}
+
+#contact button:hover{
+background-color: beige;
+}
+   
+.icons{
+padding-bottom: 20px;
+
+}
+.follow{
+    padding-left: 8px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+input.form-control{
+       background:transparent;
+       outline:none;
+       border-radius: 30px;
+       box-shadow:0 0 4px white;
+       font-size: 13px;
+       transition: box-shadow 0.5s ease;
+    }
+.form-label{
+
+color:orange;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+footer{
+
+    background: darkslategray;
+    width:100%;
+}
